@@ -498,6 +498,7 @@ section {
     line-height: 2;
     letter-spacing: 0.04em;
     font-size: 12px;
+    background-color: transparent;
 }
 
 .subscrabe-input::placeholder {
@@ -560,6 +561,10 @@ section {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
+
+.is-hidden {
+    display: none;
 }
 
 .modal {
@@ -659,7 +664,6 @@ section {
     transform: translateY(-50%);
     fill: #2E2F42;
     position: absolute;
-    top: 8px;
     left: 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
